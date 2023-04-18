@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.demo.Demo2ApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-04-17T06:17:25" hostname="DESKTOP-DAU345R" time="0.117">
+  <properties/>
+  <testcase name="contextLoads()" classname="com.example.demo.Demo2ApplicationTests" time="0.117"/>
+  <system-out><![CDATA[15:17:19.173 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+15:17:19.191 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+15:17:19.227 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [com.example.demo.Demo2ApplicationTests] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+15:17:19.240 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.example.demo.Demo2ApplicationTests], using SpringBootContextLoader
+15:17:19.244 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.Demo2ApplicationTests]: class path resource [com/example/demo/Demo2ApplicationTests-context.xml] does not exist
+15:17:19.245 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [com.example.demo.Demo2ApplicationTests]: class path resource [com/example/demo/Demo2ApplicationTestsContext.groovy] does not exist
+15:17:19.245 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [com.example.demo.Demo2ApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+15:17:19.245 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils - Could not detect default configuration classes for test class [com.example.demo.Demo2ApplicationTests]: Demo2ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+15:17:19.293 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [com.example.demo.Demo2ApplicationTests]
+15:17:19.363 [Test worker] DEBUG org.springframework.context.annotation.ClassPathScanningCandidateComponentProvider - Identified candidate component class: file [C:\cns_project\build\classes\java\main\com\example\demo\Demo2Application.class]
+15:17:19.365 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Found @SpringBootConfiguration com.example.demo.Demo2Application for test class com.example.demo.Demo2ApplicationTests
+15:17:19.491 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [com.example.demo.Demo2ApplicationTests]: using defaults.
+15:17:19.493 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+15:17:19.512 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@588ab592, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@c8b96ec, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@4cc61eb1, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2d8f2f3a, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2024293c, org.springframework.test.context.support.DirtiesContextTestExecutionListener@7048f722, org.springframework.test.context.transaction.TransactionalTestExecutionListener@c074c0c, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@58a55449, org.springframework.test.context.event.EventPublishingTestExecutionListener@5949eba8, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@6e0ff644, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@58dea0a5, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2a2bb0eb, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@3c291aad, org.springframework.boot.test.autoconfigure.webservices.client.MockWebServiceServerTestExecutionListener@2d0566ba, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@733037]
+15:17:19.515 [Test worker] DEBUG org.springframework.test.context.support.AbstractDirtiesContextTestExecutionListener - Before test class: context [DefaultTestContext@1bc53649 testClass = Demo2ApplicationTests, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [WebMergedContextConfiguration@88d6f9b testClass = Demo2ApplicationTests, locations = '{}', classes = '{class com.example.demo.Demo2Application}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true}', contextCustomizers = set[org.springframework.boot.test.autoconfigure.actuate.metrics.MetricsExportContextCustomizerFactory$DisableMetricExportContextCustomizer@21baa903, org.springframework.boot.test.autoconfigure.properties.PropertyMappingContextCustomizer@0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverContextCustomizerFactory$Customizer@2b5825fa, org.springframework.boot.test.context.filter.ExcludeFilterContextCustomizer@2262b621, org.springframework.boot.test.json.DuplicateJsonObjectContextCustomizerFactory$DuplicateJsonObjectContextCustomizer@25e2a451, org.springframework.boot.test.mock.mockito.MockitoContextCustomizer@0, org.springframework.boot.test.web.client.TestRestTemplateContextCustomizer@129b4fe2, org.springframework.boot.test.context.SpringBootTestArgs@1, org.springframework.boot.test.context.SpringBootTestWebEnvironment@456d6c1e], resourceBasePath = 'src/main/webapp', contextLoader = 'org.springframework.boot.test.context.SpringBootContextLoader', parent = [null]], attributes = map['org.springframework.test.context.web.ServletTestExecutionListener.activateListener' -> true]], class annotated with @DirtiesContext [false] with mode [null].
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::               (v2.7.10)
+
+2023-04-17 15:17:19.983  INFO 6512 --- [    Test worker] com.example.demo.Demo2ApplicationTests   : Starting Demo2ApplicationTests using Java 11.0.18 on DESKTOP-DAU345R with PID 6512 (started by 82103 in C:\cns_project)
+2023-04-17 15:17:19.985  INFO 6512 --- [    Test worker] com.example.demo.Demo2ApplicationTests   : No active profile set, falling back to 1 default profile: "default"
+2023-04-17 15:17:20.798  INFO 6512 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-04-17 15:17:20.895  INFO 6512 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 87 ms. Found 5 JPA repository interfaces.
+2023-04-17 15:17:21.597  INFO 6512 --- [    Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-04-17 15:17:21.677  INFO 6512 --- [    Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-04-17 15:17:21.909  INFO 6512 --- [    Test worker] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-04-17 15:17:22.071  INFO 6512 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-04-17 15:17:22.262  INFO 6512 --- [    Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-04-17 15:17:22.307  INFO 6512 --- [    Test worker] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2023-04-17 15:17:23.337 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists board CASCADE 
+2023-04-17 15:17:23.349 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists community CASCADE 
+2023-04-17 15:17:23.350 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists files CASCADE 
+2023-04-17 15:17:23.353 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists member CASCADE 
+2023-04-17 15:17:23.354 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop table if exists reply CASCADE 
+2023-04-17 15:17:23.355 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    drop sequence if exists hibernate_sequence
+2023-04-17 15:17:23.358 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : create sequence hibernate_sequence start with 1 increment by 1
+2023-04-17 15:17:23.359 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table board (
+       id integer not null,
+        moddate timestamp,
+        regdate timestamp,
+        cnt integer not null,
+        content varchar(255),
+        scr varchar(255),
+        status varchar(255),
+        thumb varchar(255),
+        title varchar(255),
+        primary key (id)
+    )
+2023-04-17 15:17:23.363 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table community (
+       id integer not null,
+        moddate timestamp,
+        regdate timestamp,
+        cnt_person integer not null,
+        end_time varchar(255),
+        ex varchar(255),
+        fac varchar(255),
+        payment varchar(255),
+        res_date varchar(255),
+        start_time varchar(255),
+        primary key (id)
+    )
+2023-04-17 15:17:23.364 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table files (
+       id integer not null,
+        moddate timestamp,
+        regdate timestamp,
+        accept varchar(255),
+        name varchar(255),
+        member_id integer,
+        primary key (id)
+    )
+2023-04-17 15:17:23.367 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table member (
+       id integer not null,
+        moddate timestamp,
+        regdate timestamp,
+        apt_detail varchar(255),
+        apt_name varchar(255),
+        email varchar(255),
+        nickname varchar(255),
+        member_passwd varchar(255),
+        passwd_check varchar(255),
+        phone varchar(255),
+        temp_pwd varchar(255),
+        user_ip varchar(255),
+        primary key (id)
+    )
+2023-04-17 15:17:23.369 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    create table reply (
+       id integer not null,
+        reply_content varchar(255),
+        member_id integer,
+        primary key (id)
+    )
+2023-04-17 15:17:23.371 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    alter table files 
+       add constraint FK4w8w52utpstdivr1to7egg0qw 
+       foreign key (member_id) 
+       references member
+2023-04-17 15:17:23.374 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    
+    alter table reply 
+       add constraint FKen6vrmi5oth4bg6ybfc202fmu 
+       foreign key (member_id) 
+       references member
+2023-04-17 15:17:23.378  INFO 6512 --- [    Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-04-17 15:17:23.390  INFO 6512 --- [    Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-04-17 15:17:24.307  WARN 6512 --- [    Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-04-17 15:17:25.423  INFO 6512 --- [    Test worker] com.example.demo.Demo2ApplicationTests   : Started Demo2ApplicationTests in 5.865 seconds (JVM running for 9.135)
+2023-04-17 15:17:25.505 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.566 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (moddate, regdate, apt_detail, apt_name, email, nickname, member_passwd, passwd_check, phone, temp_pwd, user_ip, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.575 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.576 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        member
+        (moddate, regdate, apt_detail, apt_name, email, nickname, member_passwd, passwd_check, phone, temp_pwd, user_ip, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.588 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.589 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        board
+        (moddate, regdate, cnt, content, scr, status, thumb, title, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.591 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.593 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        board
+        (moddate, regdate, cnt, content, scr, status, thumb, title, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.603 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.604 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        files
+        (moddate, regdate, accept, member_id, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.607 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.608 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        files
+        (moddate, regdate, accept, member_id, name, id) 
+    values
+        (?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.613 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.615 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        reply
+        (member_id, reply_content, id) 
+    values
+        (?, ?, ?)
+2023-04-17 15:17:25.617 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.619 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        reply
+        (member_id, reply_content, id) 
+    values
+        (?, ?, ?)
+2023-04-17 15:17:25.621 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.624 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        reply
+        (member_id, reply_content, id) 
+    values
+        (?, ?, ?)
+2023-04-17 15:17:25.633 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.635 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        community
+        (moddate, regdate, cnt_person, end_time, ex, fac, payment, res_date, start_time, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+2023-04-17 15:17:25.637 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    call next value for hibernate_sequence
+2023-04-17 15:17:25.640 DEBUG 6512 --- [    Test worker] org.hibernate.SQL                        : 
+    insert 
+    into
+        community
+        (moddate, regdate, cnt_person, end_time, ex, fac, payment, res_date, start_time, id) 
+    values
+        (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
